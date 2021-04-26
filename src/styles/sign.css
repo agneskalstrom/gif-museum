@@ -18,3 +18,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@media screen and (max-width: 500px) {
+    .sign {
+        max-width: 80vw;
+    }
+}

@@ -29,3 +29,17 @@
 .sound-toggle {
     margin-right: .5em;
 }
+
+@media screen and (max-width: 500px) {
+    .nav-wrapper button {
+        font-size: 1.2em;
+    }
+
+    .sound-toggle {
+        margin-right: .3em;
+    }
+
+    .nav-wrapper {
+        min-height: 18vh;
+    }
+}

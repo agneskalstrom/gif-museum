@@ -43,13 +43,27 @@ p {
 
 a:link, a:visited, a:active {
   color: black;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
+  background: linear-gradient(to top, #000 50%, #fff 50%);
+  background-position: top left;
+  background-size: 100% 200%;
   text-decoration: none;
-  transition: .2s;
+  transition: .2s ease-out;
   font-weight: bold;
 }
 
 a:hover {
-  background-color: black;
-  color: white;
+  background-position: bottom left;
+  color: #fff;
+}
+
+
+@media screen and (max-width:500px) {
+  h1 {
+      font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
 }

@@ -6,7 +6,7 @@
     padding: 6em 2em 2em 2em;
     position: absolute;
     box-shadow: -10px 0px 10px rgba(105, 105, 105, 0.37);
-    transition: 1s;
+    transition: .7s;
 }
 
 #info-wrapper h2 {
@@ -46,4 +46,20 @@
 
 .in {
     right: 0;
+}
+
+@media screen and (max-width: 500px) {
+    #info-wrapper {
+        width: 100vw;
+        height: 100vh;
+        padding: 5em 2em 2em 2em;
+    }
+
+    .info-module {
+        margin-bottom: 1em;
+    }
+
+    .out {
+        right: -50em;
+    }
 }
