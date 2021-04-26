@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900');
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 70vw;
+  padding-left: 2em;
+  min-height: 12vh;
+}
+
+h1 {
+  font-family: Raleway;
+  text-transform: uppercase;
+}
+
+.exhibition {
+    margin-top: .2em;
+}
+
+.word {
+    font-weight: bold;
+    text-transform: uppercase;
+}

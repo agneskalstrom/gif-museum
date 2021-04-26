@@ -1,0 +1,49 @@
+#info-wrapper {
+    width: 25em;
+    height: 100vh;
+    top: 0;
+    background-color: #fff;
+    padding: 6em 2em 2em 2em;
+    position: absolute;
+    box-shadow: -10px 0px 10px rgba(105, 105, 105, 0.37);
+    transition: 1s;
+}
+
+#info-wrapper h2 {
+    font-family: Raleway;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#info-wrapper h3 {
+    font-size: 1em;
+    padding-bottom: .5em;
+    font-weight: bold;
+}
+
+.info-module {
+    margin-bottom: 2em;
+}
+
+.info-exhibition {
+    text-transform: uppercase;
+}
+
+.info-meaning {
+    text-transform: lowercase;
+}
+
+#info-wrapper li {
+    font-size: .9em;
+    line-height: 1.5;
+}
+
+.out {
+    right: -30em;
+}
+
+.in {
+    right: 0;
+}

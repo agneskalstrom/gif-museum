@@ -1,0 +1,31 @@
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    width: 30vw;
+    right: 0;
+    min-height: 12vh;
+    position: fixed;
+}
+
+.buttons {
+    z-index: 20;
+    display: flex;
+}
+
+.nav-wrapper button {
+    border: 0;
+    background-color: transparent;
+    font-size: 1.6em;
+    padding: 0;
+    width: 1.2em;
+}
+
+.nav-wrapper button:hover {
+    cursor: pointer;
+}
+
+.sound-toggle {
+    margin-right: .5em;
+}
