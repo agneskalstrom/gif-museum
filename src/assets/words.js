@@ -26,6 +26,7 @@ const words = [
   "spaghetti",
   "tacos",
   "witchcraft",
+  "slow motion",
 ];
 
 const word = words[Math.floor(Math.random() * words.length)];
